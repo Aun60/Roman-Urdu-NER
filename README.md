@@ -2,24 +2,27 @@
 # Roman-Urdu Named Entity Recognition (NER)
 ### A Comparative Study of CRF, mBERT, and XLM-RoBERTa
 
-This repository contains the dataset, code, and research paper for our study on **Named Entity Recognition for Roman-Urdu text**, comparing:
+This repository contains the dataset, training code, inference scripts, and research paper for a comprehensive study on Named Entity Recognition for Roman-Urdu text.
+We evaluate and compare three NER models:
 
-- **CRF (baseline model)**
-- **mBERT (BERT-base-multilingual-cased)**
-- **XLM-RoBERTa (xlm-roberta-base)** with multi-epoch evaluation (3, 5, 10)
+CRF (baseline)
 
-This is the **first documented comparative analysis** on Roman-Urdu NER using these three models.
+mBERT (BERT-base-multilingual-cased)
 
+XLM-RoBERTa (xlm-roberta-base)
+
+This work includes the largest synthetic Roman-Urdu NER dataset to date (5,500 sentences) and is the first systematic comparison of CRF, mBERT, and XLM-R on this language.
 ---
 
 ## ⭐ Key Contributions
 
-- Creation of a **2,000-sentence Roman-Urdu NER dataset**
-- Seven annotated entity categories: `PER`, `LOC`, `ORG`, `EVENT`, `PRODUCT`, `DATE`, `MISC`
-- Evaluation of CRF, mBERT, and XLM-R
-- Detailed multi-epoch experiments for XLM-R showing **overfitting beyond 3 epochs**
-- Full research paper included (DOCX + PDF)
+-Construction of a 5,500-sentence Roman-Urdu NER training dataset + 300-sentence dev and test sets
+-Seven entity categories: PER, LOC, ORG, EVENT, PRODUCT, DATE, MISC
+-Extensive evaluation of CRF, mBERT, and XLM-R
+-Demonstration that XLM-R achieves the highest F1, while mBERT provides more stable inference on noisy inputs
+-Complete research paper (PDF + DOCX)
 
+Interactive NER inference script for real-time testing
 ---
 
 ## 📁 Repository Structure
@@ -28,18 +31,24 @@ This is the **first documented comparative analysis** on Roman-Urdu NER using th
 Roman-Urdu-NER/
 │
 ├── data/
-│   ├── train.csv
-│   ├── dev.csv
-│   ├── test.csv
+│   ├── roman_train_5500.csv
+│   ├── roman_dev_300.csv
+│   ├── roman_test_300.csv
+│
+├── models/
+│   ├── crf_model.joblib
+│   ├── mbert_model/
+│   ├── xlmr_model/
 │
 ├── notebooks/
 │   ├── Roman_Urdu_NER_Experiments.ipynb
 │
 ├── paper/
-│   ├── Roman_Urdu_NER_Paper.docx
 │   ├── Roman_Urdu_NER_Paper.pdf
+│   ├── Roman_Urdu_NER_Paper.docx
 │
 └── README.md
+
 ```
 
 ---
@@ -56,40 +65,59 @@ Roman-Urdu-NER/
 | DATE | Dates |
 | MISC | Miscellaneous |
 
-Dataset includes structured noise:
-- casing variations  
-- typos  
-- distractor tokens  
-- multi-token entities  
+The dataset includes intentional noise to simulate real conversational Roman-Urdu:
+-casing variation
+-typos and spelling drift
+-mixed Urdu–English phrasing
+-multi-token entities
+-irregular spacing
 
 ---
 
 ## 🚀 Models & Results
 
 ### **CRF Baseline**
-- F1 Score: **0.88**
+- F1 (Weighted): 0.84
+-Performs well with PER and LOC, struggles with ORG and EVENT
 
 ### **mBERT**
-- F1 Score: **0.9525**  
-- Best overall model
+(4 Epochs)
+-DEV F1: 0.865
+-TEST F1: 0.871
 
 ### **XLM-RoBERTa**
-Epoch | F1 Score | Notes  
-------|----------|-------  
-3 | 0.9496 | Optimal before overfitting  
-5 | 0.9532 | Minor improvement  
-10 | 0.9534 | Marginal, signs of overfitting  
+(4 Epochs — Best Model)
+-DEV F1: 0.929
+-TEST F1: 0.919
+
+Strengths:
+
+Highest overall precision + recall
+
+Best on multi-token entities and rare words
+---
+
+## 🧠 Why XLM-R Outperforms mBERT (Quantitatively)
+
+-Larger multilingual vocabulary
+
+-Better subword segmentation for noisy Roman script
+
+-Stronger cross-lingual representations
+
+Handles multi-token entities more effectively
 
 ---
 
-## 🧠 Why mBERT Outperforms XLM-R
+Why mBERT Was Used for Real-Sentence Testing
+-
+-Even though XLM-R produced the highest F1, qualitative testing revealed:
+-mBERT is more stable on noisy, conversational Roman-Urdu
+-It handles inconsistent casing and spelling better
+-It avoids over-segmentation of Roman tokens
+-It is more predictable during interactive inference
 
-- Roman script aligns better with mBERT’s English-heavy vocabulary  
-- Dataset is too small for XLM-R’s 550M parameters  
-- XLM-R over-segmented Roman tokens  
-- mBERT generalizes better on low-resource Roman-Urdu  
-
----
+Therefore, mBERT was selected for demonstration and deployment-level testing.
 
 ## 📄 Research Paper
 
