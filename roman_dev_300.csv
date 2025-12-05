@@ -1,0 +1,301 @@
+sentence,labels
+Dr. Ahmed ko pata tha ke annual function cancel ho sakta hai.,O O O O O O B-EVENT I-EVENT O O O O
+Priya Sharma se North Karachi travel kar chuka tha jab traffic jam hua.,B-PER I-PER O B-LOC I-LOC O O O O O O O O
+Ali Khan aur Bilal Khan ne taxi share ki aur Karachi Press se interview diya.,B-PER I-PER O B-PER I-PER O O O O O O O O O O
+"Rizwan ka address: House No. 5, Old Lahore.",B-PER O O O O O O O
+Bilal Khan ne apna electric scooter sell kar diya aur naya phone liya.,B-PER I-PER O O B-PRODUCT I-PRODUCT O O O O O O O
+"Maryam Khan ne kaha, 'Book laana' aur chala gaya.",B-PER I-PER O O O O O O O
+Dr. Ahmed se Islamabad Sector G-8 travel kar chuka tha jab traffic jam hua.,O O O B-LOC I-LOC I-LOC O O O O O O O O
+Shazia ne apna iPhone 12 sell kar diya aur naya phone liya.,B-PER O O B-PRODUCT I-PRODUCT O O O O O O O
+Shazia ki meeting kal sham ko Bank of Punjab me scheduled hai.,B-PER O O B-DATE I-DATE O O O O O O O
+Bilal Khan ne Shazia ko electric scooter gift kiya.,B-PER I-PER O B-PER O B-PRODUCT I-PRODUCT O O
+Kya tumne Noor Jahan ka message dekha? woh Islamabad Sector G-8 me hain.,O O B-PER I-PER O O O O B-LOC I-LOC I-LOC O O
+Metro Hospital (North Branch) ne notice issue ki.,B-ORG I-ORG O O O O O O
+Kya tumne Ali Khan ka message dekha? woh Islamabad Sector G-8 me hain.,O O B-PER I-PER O O O O B-LOC I-LOC I-LOC O O
+Subha subha Prof. Subhan Kashmir pohoncha; phir hotel check-in ki.,O O O O B-LOC O O O O O
+Shazia ki meeting aaj subha ko Bank of Punjab me scheduled hai.,B-PER O O B-DATE I-DATE O O O O O O O
+"Rizwan ne kaha, 'Book laana' aur chala gaya.",B-PER O O O O O O O
+Kya Maryam Khan ko pata hai ke Hunza me exam cancel hogaya?,O B-PER I-PER O O O O B-LOC O O O O
+Dr. Ahmed ki company Bank of Punjab ke sath partnership sign kar rahi hai.,O O O O B-ORG I-ORG I-ORG O O O O O O O
+National University ka CEO Prof. Subhan hai aur woh aj press conference karenge.,B-ORG I-ORG O O O O O O O O O O O
+Dr. Ahmed ne iPhone 12 repair ke liye City Hospital bheja.,O O O B-PRODUCT I-PRODUCT O O O O O O
+Ali Khan wapas?,B-PER I-PER O
+"Meeting: Sindh Education Board, 3-Jan.",O B-ORG I-ORG I-ORG O
+Shazia ne Bank of Punjab ke behalf me report submit ki.,B-PER O B-ORG I-ORG I-ORG O O O O O O
+Rizwan se North Karachi travel kar chuka tha jab traffic jam hua.,B-PER O B-LOC I-LOC O O O O O O O O
+City Hospital ka CEO Shazia hai aur woh aj press conference karenge.,B-ORG I-ORG O O B-PER O O O O O O O
+Kya Shazia ko pata hai ke Sukkur me exam cancel hogaya?,O B-PER O O O O B-LOC O O O O
+Bilal Khan ne Metro Hospital ke behalf me report submit ki.,B-PER I-PER O B-ORG I-ORG O O O O O O
+Priya Sharma ne kaha: 'Main 15-Aug ko wapas aaon ga.',B-PER I-PER O O O O O O O O
+Prof. Subhan wapas?,O O O
+Karachi Press ka CEO Prof. Subhan hai aur woh aj press conference karenge.,B-ORG I-ORG O O O O O O O O O O O
+"Maryam Khan aur unki team ne open house organize kiya, jisme staff shamil thay.",B-PER I-PER O O O O B-EVENT I-EVENT O O O O O O
+Noor Jahan wapas?,B-PER I-PER O
+Ali Khan se Sukkur travel kar chuka tha jab traffic jam hua.,B-PER I-PER O B-LOC O O O O O O O O
+Ali Khan ne kaha: 'Main 15-Aug ko wapas aaon ga.',B-PER I-PER O O O O O O O O
+Karachi Press ka CEO Bilal Khan hai aur woh aj press conference karenge.,B-ORG I-ORG O O B-PER I-PER O O O O O O O
+Rizwan ki meeting kal sham ko Bank of Punjab me scheduled hai.,B-PER O O B-DATE I-DATE O B-ORG I-ORG I-ORG O O O
+Prof. Subhan ne apna USB phone sell kar diya aur naya phone liya.,O O O O B-PRODUCT I-PRODUCT O O O O O O O
+Prof. Subhan ki company Sindh Education Board ke sath partnership sign kar rahi hai.,O O O O B-ORG I-ORG I-ORG O O O O O O O
+Kya tumne Priya Sharma ka message dekha? woh Islamabad Sector G-8 me hain.,O O B-PER I-PER O O O O B-LOC I-LOC I-LOC O O
+Kya Dr. Ahmed ko pata hai ke Gojra me exam cancel hogaya?,O O O O O O O B-LOC O O O O
+Ali Khan ne iPhone 12 repair ke liye City Hospital bheja.,B-PER I-PER O B-PRODUCT I-PRODUCT O O O O O O
+Kya Ali Khan ko pata hai ke Pindi Cantt me exam cancel hogaya?,O B-PER I-PER O O O O B-LOC I-LOC O O O O
+Sindh Education Board (North Branch) ne notice issue ki.,B-ORG I-ORG I-ORG O O O O O O
+Dr. Ahmed wapas?,O O O
+Ammar se Sukkur travel kar chuka tha jab traffic jam hua.,B-PER O B-LOC O O O O O O O O
+Kal Prof. Subhan (jo Dr. hai) Gojra se wapas aaega.,O O O O O O B-LOC O O O
+Maryam Khan ne Noor Jahan ko electric scooter gift kiya.,B-PER I-PER O B-PER I-PER O B-PRODUCT I-PRODUCT O O
+"Noor Jahan ka address: House No. 5, Old Lahore.",B-PER I-PER O O O O O O O
+Ammar ne Dr. Ahmed ko USB phone gift kiya.,B-PER O O O O B-PRODUCT I-PRODUCT O O
+Prof. Subhan ki meeting aaj subha ko Bank of Punjab me scheduled hai.,O O O O B-DATE I-DATE O O O O O O O
+Shazia kal aaj subha ko North Karachi me speech dega.,B-PER O B-DATE I-DATE O O O O O O
+Kya tumne Priya Sharma ka message dekha? woh Gilgit me hain.,O O B-PER I-PER O O O O B-LOC O O
+Priya Sharma aur Ammar ne taxi share ki aur Karachi Press se interview diya.,B-PER I-PER O B-PER O O O O O O O O O O
+Maryam Khan ko pata tha ke annual function cancel ho sakta hai.,B-PER I-PER O O O O B-EVENT I-EVENT O O O O
+Dr. Ahmed ne apna Nikon camera sell kar diya aur naya phone liya.,O O O O B-PRODUCT I-PRODUCT O O O O O O O
+Prof. Subhan ki tabiyat theek? kal check karwalo.,O O O O O O O O
+Priya Sharma ki meeting 3-Jan ko Bank of Punjab me scheduled hai.,B-PER I-PER O O B-DATE O O O O O O O
+"Shazia ne kaha, 'Book laana' aur chala gaya.",B-PER O O O O O O O
+"Meeting: Metro Hospital, 3-Jan.",O B-ORG I-ORG O
+Rizwan ki company Karachi Press ke sath partnership sign kar rahi hai.,B-PER O O B-ORG I-ORG O O O O O O O
+Ammar ki company City Hospital ke sath partnership sign kar rahi hai.,B-PER O O B-ORG I-ORG O O O O O O O
+Rizwan aur Maryam Khan ne taxi share ki aur Karachi Press se interview diya.,B-PER O B-PER I-PER O O O O O O O O O O
+"Meeting: National University, 3-Jan.",O B-ORG I-ORG B-DATE
+"Prof. Subhan ne kaha, 'Book laana' aur chala gaya.",O O O O O O O O O
+Prof. Subhan - Old Lahore - aj,O O O B-LOC I-LOC O O
+Shazia ne Karachi Press ke behalf me report submit ki.,B-PER O B-ORG I-ORG O O O O O O
+Karachi Press (North Branch) ne notice issue ki.,B-ORG I-ORG O O O O O O
+Rizwan ne Ali Khan ko study book gift kiya.,B-PER O B-PER I-PER O B-PRODUCT I-PRODUCT O O
+Rizwan aur Priya Sharma ne taxi share ki aur Karachi Press se interview diya.,B-PER O B-PER I-PER O O O O O O O O O O
+Kya Bilal Khan ko pata hai ke Sukkur me exam cancel hogaya?,O B-PER I-PER O O O O B-LOC O O O O
+Ammar ko pata tha ke sports day cancel ho sakta hai.,B-PER O O O O B-EVENT I-EVENT O O O O
+Ammar ne Karachi Press ke behalf me report submit ki.,B-PER O B-ORG I-ORG O O O O O O
+Prof. Subhan ne kaha: 'Main 15-Aug ko wapas aaon ga.',O O O O O O O O O O
+Ammar ne Dr. Ahmed ko Nikon camera gift kiya.,B-PER O O O O B-PRODUCT I-PRODUCT O O
+Dr. Ahmed ne apna USB phone sell kar diya aur naya phone liya.,O O O O B-PRODUCT I-PRODUCT O O O O O O O
+Maryam Khan kal 3-Jan ko North Karachi me speech dega.,B-PER I-PER O B-DATE O B-LOC I-LOC O O O
+Bilal Khan ki meeting 3-Jan ko Bank of Punjab me scheduled hai.,B-PER I-PER O O B-DATE O B-ORG I-ORG I-ORG O O O
+PK Telecom ka CEO Dr. Ahmed hai aur woh aj press conference karenge.,B-ORG I-ORG O O O O O O O O O O O
+Priya Sharma ka bachpan Gilgit ke pass guzra.,B-PER I-PER O O B-LOC O O O
+Priya Sharma ki meeting 15 Aug ko Bank of Punjab me scheduled hai.,B-PER I-PER O O B-DATE I-DATE O O O O O O O
+Priya Sharma aur Noor Jahan ne taxi share ki aur Karachi Press se interview diya.,B-PER I-PER O B-PER I-PER O O O O O B-ORG I-ORG O O O
+Ali Khan ne Bank of Punjab ke behalf me report submit ki.,B-PER I-PER O B-ORG I-ORG I-ORG O O O O O O
+"Maryam Khan aur unki team ne final exam organize kiya, jisme staff shamil thay.",B-PER I-PER O O O O B-EVENT I-EVENT O O O O O O
+Kya Ammar ko pata hai ke Gojra me exam cancel hogaya?,O B-PER O O O O B-LOC O O O O
+Dr. Ahmed ne apna study book sell kar diya aur naya phone liya.,O O O O B-PRODUCT I-PRODUCT O O O O O O O
+Prof. Subhan se North Karachi travel kar chuka tha jab traffic jam hua.,O O O B-LOC I-LOC O O O O O O O O
+Maryam Khan ne apna electric scooter sell kar diya aur naya phone liya.,B-PER I-PER O O B-PRODUCT I-PRODUCT O O O O O O O
+Prof. Subhan ne Maryam Khan ko Nikon camera gift kiya.,O O O B-PER I-PER O B-PRODUCT I-PRODUCT O O
+Maryam Khan ne kaha: 'Main 15-Aug ko wapas aaon ga.',B-PER I-PER O O O O O O O O
+Noor Jahan ki meeting 15-Aug-2023 ko Bank of Punjab me scheduled hai.,B-PER I-PER O O B-DATE O O O O O O O
+Prof. Subhan ne Shazia ko iPhone 12 gift kiya.,O O O B-PER O B-PRODUCT I-PRODUCT O O
+Subha subha Prof. Subhan Old Lahore pohoncha; phir hotel check-in ki.,O O O O B-LOC I-LOC O O O O O
+Prof. Subhan ki company National University ke sath partnership sign kar rahi hai.,O O O O B-ORG I-ORG O O O O O O O
+PK Telecom (North Branch) ne notice issue ki.,B-ORG I-ORG O O O O O O
+Kya tumne Priya Sharma ka message dekha? woh Kashmir me hain.,O O B-PER I-PER O O O O B-LOC O O
+Bilal Khan wapas?,B-PER I-PER O
+Noor Jahan ki meeting 3-Jan ko Bank of Punjab me scheduled hai.,B-PER I-PER O O B-DATE O O O O O O O
+Ammar ki company Sindh Education Board ke sath partnership sign kar rahi hai.,B-PER O O B-ORG I-ORG I-ORG O O O O O O O
+Subha subha Shazia Sukkur pohoncha; phir hotel check-in ki.,O O B-PER B-LOC O O O O O
+Shazia aur Dr. Ahmed ne taxi share ki aur Karachi Press se interview diya.,B-PER O O O O O O O O O O O O O
+"Rizwan aur unki team ne hackathon organize kiya, jisme staff shamil thay.",B-PER O O O O B-EVENT O O O O O O
+Rizwan - Pindi Cantt - aj,B-PER O B-LOC I-LOC O O
+"Bilal Khan ka address: House No. 5, Old Lahore.",B-PER I-PER O O O O O O O
+Priya Sharma aur Bilal Khan ne taxi share ki aur Karachi Press se interview diya.,B-PER I-PER O B-PER I-PER O O O O O O O O O O
+Ali Khan se Pindi Cantt travel kar chuka tha jab traffic jam hua.,B-PER I-PER O B-LOC I-LOC O O O O O O O O
+Prof. Subhan se Old Lahore travel kar chuka tha jab traffic jam hua.,O O O B-LOC I-LOC O O O O O O O O
+Maryam Khan aur Priya Sharma ne taxi share ki aur Karachi Press se interview diya.,B-PER I-PER O B-PER I-PER O O O O O O O O O O
+"Ali Khan ka address: House No. 5, Old Lahore.",B-PER I-PER O O O O O O O
+Bilal Khan - Old Lahore - aj,B-PER I-PER O B-LOC I-LOC O O
+Kal Ammar (jo Dr. hai) Islamabad Sector G-8 se wapas aaega.,O B-PER O O O B-LOC I-LOC I-LOC O O O
+Kya tumne Noor Jahan ka message dekha? woh North Karachi me hain.,O O B-PER I-PER O O O O B-LOC I-LOC O O
+Kal Bilal Khan (jo Dr. hai) Hunza se wapas aaega.,O B-PER I-PER O O O B-LOC O O O
+Dr. Ahmed - North Karachi - aj,O O O B-LOC I-LOC O O
+Subha subha Maryam Khan Kashmir pohoncha; phir hotel check-in ki.,O O B-PER I-PER B-LOC O O O O O
+Bilal Khan ne kaha: 'Main 15-Aug ko wapas aaon ga.',B-PER I-PER O O O O O O O O
+Dr. Ahmed aur Rizwan ne taxi share ki aur Karachi Press se interview diya.,O O O B-PER O O O O O O O O O O
+"Priya Sharma aur unki team ne blood drive organize kiya, jisme staff shamil thay.",B-PER I-PER O O O O B-EVENT I-EVENT O O O O O O
+Rizwan ko pata tha ke blood drive cancel ho sakta hai.,B-PER O O O O B-EVENT I-EVENT O O O O
+"Meeting: PK Telecom, 3-Jan.",O B-ORG I-ORG O
+Shazia ki company Karachi Press ke sath partnership sign kar rahi hai.,B-PER O O B-ORG I-ORG O O O O O O O
+Rizwan - Gilgit - aj,B-PER O B-LOC O O
+Subha subha Prof. Subhan Gilgit pohoncha; phir hotel check-in ki.,O O O O B-LOC O O O O O
+Dr. Ahmed se Pindi Cantt travel kar chuka tha jab traffic jam hua.,O O O B-LOC I-LOC O O O O O O O O
+"Noor Jahan ne kaha, 'Book laana' aur chala gaya.",B-PER I-PER O O O O O O O
+Maryam Khan ki meeting aaj subha ko Bank of Punjab me scheduled hai.,B-PER I-PER O O B-DATE I-DATE O O O O O O O
+Subha subha Ammar Sukkur pohoncha; phir hotel check-in ki.,O O B-PER B-LOC O O O O O
+"Ammar ka address: House No. 5, Old Lahore.",B-PER O O O O O B-LOC I-LOC
+Bilal Khan ko pata tha ke blood drive cancel ho sakta hai.,B-PER I-PER O O O O B-EVENT I-EVENT O O O O
+Priya Sharma kal aaj subha ko North Karachi me speech dega.,B-PER I-PER O B-DATE I-DATE O O O O O O
+Ali Khan - Hyderabad - aj,B-PER I-PER O B-LOC O O
+Noor Jahan kal 15-Aug-2023 ko North Karachi me speech dega.,B-PER I-PER O B-DATE O O O O O O
+Ali Khan ne apna iPhone 12 sell kar diya aur naya phone liya.,B-PER I-PER O O B-PRODUCT I-PRODUCT O O O O O O O
+Shazia ne kaha: 'Main 15-Aug ko wapas aaon ga.',B-PER O O O O O O O O
+Rizwan ne USB phone repair ke liye City Hospital bheja.,B-PER O B-PRODUCT I-PRODUCT O O O O O O
+"Maryam Khan ka address: House No. 5, Old Lahore.",B-PER I-PER O O O O O O O
+Priya Sharma ka bachpan Sukkur ke pass guzra.,B-PER I-PER O O B-LOC O O O
+Rizwan ne Bank of Punjab ke behalf me report submit ki.,B-PER O B-ORG I-ORG I-ORG O O O O O O
+Kya tumne Priya Sharma ka message dekha? woh Hyderabad me hain.,O O B-PER I-PER O O O O B-LOC O O
+Dr. Ahmed ki meeting aaj subha ko Bank of Punjab me scheduled hai.,O O O O B-DATE I-DATE O O O O O O O
+Metro Hospital ka CEO Ammar hai aur woh aj press conference karenge.,B-ORG I-ORG O O B-PER O O O O O O O
+Subha subha Ali Khan Islamabad Sector G-8 pohoncha; phir hotel check-in ki.,O O B-PER I-PER B-LOC I-LOC I-LOC O O O O O
+Maryam Khan wapas?,B-PER I-PER O
+Maryam Khan kal parso subha ko North Karachi me speech dega.,B-PER I-PER O B-DATE I-DATE O O O O O O
+Bilal Khan ki tabiyat theek? kal check karwalo.,B-PER I-PER O O O O O O
+Ammar kal 15-Aug-2023 ko North Karachi me speech dega.,B-PER O B-DATE O O O O O O
+Priya Sharma ne Sindh Education Board ke behalf me report submit ki.,B-PER I-PER O B-ORG I-ORG I-ORG O O O O O O
+"Priya Sharma ka address: House No. 5, Old Lahore.",B-PER I-PER O O O O O O O
+Kya Bilal Khan ko pata hai ke Gojra me exam cancel hogaya?,O B-PER I-PER O O O O B-LOC O O O O
+"Shazia ka address: House No. 5, Old Lahore.",B-PER O O O O O O O
+Subha subha Maryam Khan Sukkur pohoncha; phir hotel check-in ki.,O O B-PER I-PER B-LOC O O O O O
+Bilal Khan ka bachpan Gilgit ke pass guzra.,B-PER I-PER O O B-LOC O O O
+Karachi Press ka CEO Ali Khan hai aur woh aj press conference karenge.,B-ORG I-ORG O O B-PER I-PER O O O O O O O
+Noor Jahan ne apna USB phone sell kar diya aur naya phone liya.,B-PER I-PER O O B-PRODUCT I-PRODUCT O O O O O O O
+Noor Jahan ne Karachi Press ke behalf me report submit ki.,B-PER I-PER O B-ORG I-ORG O O O O O O
+Shazia ko pata tha ke final exam cancel ho sakta hai.,B-PER O O O O B-EVENT I-EVENT O O O O
+Ammar se Islamabad Sector G-8 travel kar chuka tha jab traffic jam hua.,B-PER O B-LOC I-LOC I-LOC O O O O O O O O
+Noor Jahan ne apna second-hand laptop sell kar diya aur naya phone liya.,B-PER I-PER O O B-PRODUCT I-PRODUCT O O O O O O O
+Shazia - Old Lahore - aj,B-PER O B-LOC I-LOC O O
+"Bilal Khan ne kaha, 'Book laana' aur chala gaya.",B-PER I-PER O O O O O O O
+Maryam Khan aur Noor Jahan ne taxi share ki aur Karachi Press se interview diya.,B-PER I-PER O B-PER I-PER O O O O O O O O O O
+Subha subha Priya Sharma Islamabad Sector G-8 pohoncha; phir hotel check-in ki.,O O B-PER I-PER B-LOC I-LOC I-LOC O O O O O
+Priya Sharma kal 15-Aug-2023 ko North Karachi me speech dega.,B-PER I-PER O B-DATE O O O O O O
+Bilal Khan ki meeting 15 Aug ko Bank of Punjab me scheduled hai.,B-PER I-PER O O B-DATE I-DATE O O O O O O O
+Prof. Subhan - Kashmir - aj,O O O B-LOC O O
+Kya Ammar ko pata hai ke North Karachi me exam cancel hogaya?,O B-PER O O O O B-LOC I-LOC O O O O
+Dr. Ahmed ka bachpan Gilgit ke pass guzra.,O O O O B-LOC O O O
+Kal Noor Jahan (jo Dr. hai) Gilgit se wapas aaega.,O B-PER I-PER O O O B-LOC O O O
+Ali Khan ki meeting 3-Jan ko Bank of Punjab me scheduled hai.,B-PER I-PER O O B-DATE O O O O O O O
+Kya tumne Rizwan ka message dekha? woh Islamabad Sector G-8 me hain.,O O B-PER O O O O B-LOC I-LOC I-LOC O O
+Sindh Education Board ka CEO Prof. Subhan hai aur woh aj press conference karenge.,B-ORG I-ORG I-ORG O O O O O O O O O O O
+Rizwan ne apna second-hand laptop sell kar diya aur naya phone liya.,B-PER O O B-PRODUCT I-PRODUCT O O O O O O O
+Kal Priya Sharma (jo Dr. hai) Islamabad Sector G-8 se wapas aaega.,O B-PER I-PER O O O B-LOC I-LOC I-LOC O O O
+Kal Priya Sharma (jo Dr. hai) North Karachi se wapas aaega.,O B-PER I-PER O O O B-LOC I-LOC O O O
+Rizwan ne PK Telecom ke behalf me report submit ki.,B-PER O B-ORG I-ORG O O O O O O
+"Dr. Ahmed aur unki team ne open house organize kiya, jisme staff shamil thay.",O O O O O O B-EVENT I-EVENT O O O O O O
+Rizwan - Sukkur - aj,B-PER O B-LOC O O
+Ali Khan ne second-hand laptop repair ke liye City Hospital bheja.,B-PER I-PER O B-PRODUCT I-PRODUCT O O O O O O
+Ali Khan se Hyderabad travel kar chuka tha jab traffic jam hua.,B-PER I-PER O B-LOC O O O O O O O O
+Kya Priya Sharma ko pata hai ke Kashmir me exam cancel hogaya?,O B-PER I-PER O O O O B-LOC O O O O
+Subha subha Ammar Gilgit pohoncha; phir hotel check-in ki.,O O B-PER B-LOC O O O O O
+Kya Bilal Khan ko pata hai ke Pindi Cantt me exam cancel hogaya?,O B-PER I-PER O O O O B-LOC I-LOC O O O O
+Bank of Punjab ka CEO Shazia hai aur woh aj press conference karenge.,B-ORG I-ORG I-ORG O O B-PER O O O O O O O
+Kya Bilal Khan ko pata hai ke Gilgit me exam cancel hogaya?,O B-PER I-PER O O O O B-LOC O O O O
+Kya Bilal Khan ko pata hai ke Old Lahore me exam cancel hogaya?,O B-PER I-PER O O O O B-LOC I-LOC O O O O
+Noor Jahan ne USB phone repair ke liye City Hospital bheja.,B-PER I-PER O B-PRODUCT I-PRODUCT O O O O O O
+Bank of Punjab ka CEO Prof. Subhan hai aur woh aj press conference karenge.,B-ORG I-ORG I-ORG O O O O O O O O O O O
+Rizwan ko pata tha ke open house cancel ho sakta hai.,B-PER O O O O B-EVENT I-EVENT O O O O
+Bilal Khan ko pata tha ke sports day cancel ho sakta hai.,B-PER I-PER O O O O B-EVENT I-EVENT O O O O
+Ammar ne apna study book sell kar diya aur naya phone liya.,B-PER O O B-PRODUCT I-PRODUCT O O O O O O O
+Noor Jahan - North Karachi - aj,B-PER I-PER O B-LOC I-LOC O O
+Priya Sharma ne Nikon camera repair ke liye City Hospital bheja.,B-PER I-PER O B-PRODUCT I-PRODUCT O O O O O O
+Kya Noor Jahan ko pata hai ke North Karachi me exam cancel hogaya?,O B-PER I-PER O O O O B-LOC I-LOC O O O O
+Bilal Khan ka bachpan Hyderabad ke pass guzra.,B-PER I-PER O O B-LOC O O O
+"Ammar aur unki team ne sports day organize kiya, jisme staff shamil thay.",B-PER O O O O B-EVENT I-EVENT O O O O O O
+Dr. Ahmed ka bachpan Gojra ke pass guzra.,O O O O B-LOC O O O
+Shazia aur Maryam Khan ne taxi share ki aur Karachi Press se interview diya.,B-PER O B-PER I-PER O O O O O O O O O O
+Kya tumne Dr. Ahmed ka message dekha? woh Gojra me hain.,O O O O O O O O B-LOC O O
+"Shazia aur unki team ne sports day organize kiya, jisme staff shamil thay.",B-PER O O O O B-EVENT I-EVENT O O O O O O
+Rizwan wapas?,B-PER O
+Shazia - Hunza - aj,B-PER O B-LOC O O
+Subha subha Ali Khan North Karachi pohoncha; phir hotel check-in ki.,O O B-PER I-PER B-LOC I-LOC O O O O O
+"Prof. Subhan aur unki team ne open house organize kiya, jisme staff shamil thay.",O O O O O O B-EVENT I-EVENT O O O O O O
+Noor Jahan aur Bilal Khan ne taxi share ki aur Karachi Press se interview diya.,B-PER I-PER O B-PER I-PER O O O O O O O O O O
+Shazia kal 15-Aug-2023 ko North Karachi me speech dega.,B-PER O B-DATE O O O O O O
+Noor Jahan ki meeting 25 Dec ko Bank of Punjab me scheduled hai.,B-PER I-PER O O B-DATE I-DATE O O O O O O O
+Ammar wapas?,B-PER O
+Dr. Ahmed ne apna second-hand laptop sell kar diya aur naya phone liya.,O O O O B-PRODUCT I-PRODUCT O O O O O O O
+Sindh Education Board ka CEO Bilal Khan hai aur woh aj press conference karenge.,B-ORG I-ORG I-ORG O O B-PER I-PER O O O O O O O
+Ammar ne kaha: 'Main 15-Aug ko wapas aaon ga.',B-PER O O O O O O O O
+Dr. Ahmed - Old Lahore - aj,O O O B-LOC I-LOC O O
+Maryam Khan ki company Bank of Punjab ke sath partnership sign kar rahi hai.,B-PER I-PER O O B-ORG I-ORG I-ORG O O O O O O O
+Sindh Education Board ka CEO Rizwan hai aur woh aj press conference karenge.,B-ORG I-ORG I-ORG O O B-PER O O O O O O O
+Bilal Khan ka bachpan Kashmir ke pass guzra.,B-PER I-PER O O B-LOC O O O
+Dr. Ahmed ki tabiyat theek? kal check karwalo.,O O O O O O O O
+Kal Dr. Ahmed (jo Dr. hai) Old Lahore se wapas aaega.,O O O O O O B-LOC I-LOC O O O
+Dr. Ahmed ki meeting 3-Jan ko Bank of Punjab me scheduled hai.,O O O O B-DATE O O O O O O O
+Ammar ko pata tha ke hackathon cancel ho sakta hai.,B-PER O O O O B-EVENT O O O O
+Ali Khan ne study book repair ke liye City Hospital bheja.,B-PER I-PER O B-PRODUCT I-PRODUCT O O O B-ORG I-ORG O
+Kal Priya Sharma (jo Dr. hai) Gojra se wapas aaega.,O B-PER I-PER O O O B-LOC O O O
+Maryam Khan ki tabiyat theek? kal check karwalo.,B-PER I-PER O O O O O O
+Kya Ali Khan ko pata hai ke Hunza me exam cancel hogaya?,O B-PER I-PER O O O O B-LOC O O O O
+Ali Khan ki tabiyat theek? kal check karwalo.,B-PER I-PER O O O O O O
+Kya Prof. Subhan ko pata hai ke Kashmir me exam cancel hogaya?,O O O O O O O B-LOC O O O O
+Ali Khan - Hunza - aj,B-PER I-PER O B-LOC O O
+Subha subha Ammar Gojra pohoncha; phir hotel check-in ki.,O O B-PER B-LOC O O O O O
+National University (North Branch) ne notice issue ki.,B-ORG I-ORG O O O O O O
+Noor Jahan aur Prof. Subhan ne taxi share ki aur Karachi Press se interview diya.,B-PER I-PER O O O O O O O O O O O O O
+Subha subha Bilal Khan Kashmir pohoncha; phir hotel check-in ki.,O O B-PER I-PER B-LOC O O O O O
+Bilal Khan - Hunza - aj,B-PER I-PER O B-LOC O O
+Subha subha Maryam Khan North Karachi pohoncha; phir hotel check-in ki.,O O B-PER I-PER B-LOC I-LOC O O O O O
+Kya Dr. Ahmed ko pata hai ke Hunza me exam cancel hogaya?,O O O O O O O B-LOC O O O O
+"Bilal Khan aur unki team ne annual function organize kiya, jisme staff shamil thay.",B-PER I-PER O O O O B-EVENT I-EVENT O O O O O O
+Dr. Ahmed se Gojra travel kar chuka tha jab traffic jam hua.,O O O B-LOC O O O O O O O O
+Maryam Khan se Sukkur travel kar chuka tha jab traffic jam hua.,B-PER I-PER O B-LOC O O O O O O O O
+Ammar ko pata tha ke final exam cancel ho sakta hai.,B-PER O O O O B-EVENT I-EVENT O O O O
+Priya Sharma ki meeting parso subha ko Bank of Punjab me scheduled hai.,B-PER I-PER O O B-DATE I-DATE O O O O O O O
+Shazia ka bachpan Hyderabad ke pass guzra.,B-PER O O B-LOC O O O
+Ali Khan ne apna USB phone sell kar diya aur naya phone liya.,B-PER I-PER O O B-PRODUCT I-PRODUCT O O O O O O O
+Kal Priya Sharma (jo Dr. hai) Pindi Cantt se wapas aaega.,O B-PER I-PER O O O B-LOC I-LOC O O O
+"Ammar ne kaha, 'Book laana' aur chala gaya.",B-PER O O O O O O O
+Dr. Ahmed ki meeting kal sham ko Bank of Punjab me scheduled hai.,O O O O B-DATE I-DATE O O O O O O O
+Ali Khan aur Rizwan ne taxi share ki aur Karachi Press se interview diya.,B-PER I-PER O B-PER O O O O O B-ORG I-ORG O O O
+"Prof. Subhan ka address: House No. 5, Old Lahore.",O O O O O O O O O
+Priya Sharma ki tabiyat theek? kal check karwalo.,B-PER I-PER O O O O O O
+Rizwan ne apna electric scooter sell kar diya aur naya phone liya.,B-PER O O B-PRODUCT I-PRODUCT O O O O O O O
+Shazia kal 15 Aug ko North Karachi me speech dega.,B-PER O B-DATE I-DATE O O O O O O
+Maryam Khan ko pata tha ke open house cancel ho sakta hai.,B-PER I-PER O O O O B-EVENT I-EVENT O O O O
+Priya Sharma aur Dr. Ahmed ne taxi share ki aur Karachi Press se interview diya.,B-PER I-PER O O O O O O O O O O O O O
+Dr. Ahmed ka bachpan Sukkur ke pass guzra.,O O O O B-LOC O O O
+Dr. Ahmed ko pata tha ke sports day cancel ho sakta hai.,O O O O O O B-EVENT I-EVENT O O O O
+Subha subha Shazia Hunza pohoncha; phir hotel check-in ki.,O O B-PER B-LOC O O O O O
+"Noor Jahan aur unki team ne open house organize kiya, jisme staff shamil thay.",B-PER I-PER O O O O B-EVENT I-EVENT O O O O O O
+Shazia ne apna second-hand laptop sell kar diya aur naya phone liya.,B-PER O O B-PRODUCT I-PRODUCT O O O O O O O
+Kal Ali Khan (jo Dr. hai) Gojra se wapas aaega.,O B-PER I-PER O O O B-LOC O O O
+Priya Sharma ka bachpan Pindi Cantt ke pass guzra.,B-PER I-PER O O B-LOC I-LOC O O O
+Ammar ki tabiyat theek? kal check karwalo.,B-PER O O O O O O
+Karachi Press ka CEO Rizwan hai aur woh aj press conference karenge.,B-ORG I-ORG O O B-PER O O O O O O O
+Kal Rizwan (jo Dr. hai) Pindi Cantt se wapas aaega.,O B-PER O O O B-LOC I-LOC O O O
+Priya Sharma ne apna electric scooter sell kar diya aur naya phone liya.,B-PER I-PER O O B-PRODUCT I-PRODUCT O O O O O O O
+Rizwan ka bachpan Gilgit ke pass guzra.,B-PER O O B-LOC O O O
+Ammar ki meeting kal sham ko Bank of Punjab me scheduled hai.,B-PER O O B-DATE I-DATE O O O O O O O
+Kal Dr. Ahmed (jo Dr. hai) Islamabad Sector G-8 se wapas aaega.,O O O O O O B-LOC I-LOC I-LOC O O O
+Dr. Ahmed ka bachpan Hyderabad ke pass guzra.,O O O O B-LOC O O O
+"Meeting: Bank of Punjab, 3-Jan.",O B-ORG I-ORG I-ORG O
+Subha subha Bilal Khan Gojra pohoncha; phir hotel check-in ki.,O O B-PER I-PER B-LOC O O O O O
+Priya Sharma aur Ali Khan ne taxi share ki aur Karachi Press se interview diya.,B-PER I-PER O B-PER I-PER O O O O O O O O O O
+Maryam Khan ka bachpan Kashmir ke pass guzra.,B-PER I-PER O O B-LOC O O O
+Karachi Press ka CEO Shazia hai aur woh aj press conference karenge.,B-ORG I-ORG O O B-PER O O O O O O O
+Kal Prof. Subhan (jo Dr. hai) Gilgit se wapas aaega.,O O O O O O B-LOC O O O
+Shazia ki meeting 3-Jan ko Bank of Punjab me scheduled hai.,B-PER O O B-DATE O B-ORG I-ORG I-ORG O O O
+Priya Sharma wapas?,B-PER I-PER O
+"Meeting: Karachi Press, 3-Jan.",O B-ORG I-ORG O
+Shazia ki company Sindh Education Board ke sath partnership sign kar rahi hai.,B-PER O O B-ORG I-ORG I-ORG O O O O O O O
+Kya tumne Dr. Ahmed ka message dekha? woh Hyderabad me hain.,O O O O O O O O B-LOC O O
+PK Telecom ka CEO Bilal Khan hai aur woh aj press conference karenge.,B-ORG I-ORG O O B-PER I-PER O O O O O O O
+"Ali Khan aur unki team ne annual function organize kiya, jisme staff shamil thay.",B-PER I-PER O O O O B-EVENT I-EVENT O O O O O O
+"Meeting: City Hospital, 3-Jan.",O B-ORG I-ORG O
+Ammar ne apna USB phone sell kar diya aur naya phone liya.,B-PER O O B-PRODUCT I-PRODUCT O O O O O O O
+Noor Jahan ne Rizwan ko electric scooter gift kiya.,B-PER I-PER O B-PER O B-PRODUCT I-PRODUCT O O
+Priya Sharma ne apna iPhone 12 sell kar diya aur naya phone liya.,B-PER I-PER O O B-PRODUCT I-PRODUCT O O O O O O O
+Shazia aur Rizwan ne taxi share ki aur Karachi Press se interview diya.,B-PER O B-PER O O O O O O O O O O
+Priya Sharma ne City Hospital ke behalf me report submit ki.,B-PER I-PER O B-ORG I-ORG O O O O O O
+"Ammar aur unki team ne annual function organize kiya, jisme staff shamil thay.",B-PER O O O O B-EVENT I-EVENT O O O O O O
+Prof. Subhan - North Karachi - aj,O O O B-LOC I-LOC O O
+Rizwan ko pata tha ke annual function cancel ho sakta hai.,B-PER O O O O B-EVENT I-EVENT O O O O
+Ali Khan ne Noor Jahan ko Nikon camera gift kiya.,B-PER I-PER O B-PER I-PER O B-PRODUCT I-PRODUCT O O
+Shazia wapas?,B-PER O
+Subha subha Priya Sharma Gilgit pohoncha; phir hotel check-in ki.,O O B-PER I-PER B-LOC O O O O O
+Noor Jahan ne iPhone 12 repair ke liye City Hospital bheja.,B-PER I-PER O B-PRODUCT I-PRODUCT O O O O O O
+Kya tumne Ammar ka message dekha? woh Gilgit me hain.,O O B-PER O O O O B-LOC O O
+PK Telecom ka CEO Ali Khan hai aur woh aj press conference karenge.,B-ORG I-ORG O O B-PER I-PER O O O O O O O
+Prof. Subhan kal 3-Jan ko North Karachi me speech dega.,O O O B-DATE O O O O O O
+Kal Dr. Ahmed (jo Dr. hai) Gojra se wapas aaega.,O O O O O O B-LOC O O O
+Ali Khan - Sukkur - aj,B-PER I-PER O B-LOC O O
+Ammar aur Shazia ne taxi share ki aur Karachi Press se interview diya.,B-PER O B-PER O O O O O O O O O O
+Sindh Education Board ka CEO Ali Khan hai aur woh aj press conference karenge.,B-ORG I-ORG I-ORG O O B-PER I-PER O O O O O O O
+Noor Jahan ka bachpan Pindi Cantt ke pass guzra.,B-PER I-PER O O B-LOC I-LOC O O O
+Kya Maryam Khan ko pata hai ke Gojra me exam cancel hogaya?,O B-PER I-PER O O O O B-LOC O O O O
+Ali Khan ne Nikon camera repair ke liye City Hospital bheja.,B-PER I-PER O B-PRODUCT I-PRODUCT O O O B-ORG I-ORG O
+Noor Jahan ki company City Hospital ke sath partnership sign kar rahi hai.,B-PER I-PER O O B-ORG I-ORG O O O O O O O
